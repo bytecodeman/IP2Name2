@@ -37,15 +37,14 @@ POSSIBILITY OF SUCH DAMAGE.
 */
 
 #ifndef _PCRE_H
-#define PCRE_STATIC 1
 #define _PCRE_H
 
 /* The current PCRE version information. */
 
 #define PCRE_MAJOR          8
-#define PCRE_MINOR          43
+#define PCRE_MINOR          45
 #define PCRE_PRERELEASE     
-#define PCRE_DATE           2019-02-23
+#define PCRE_DATE           2021-06-15
 
 /* When an application links to a PCRE DLL in Windows, the symbols that are
 imported have to be identified as such. When building PCRE, the appropriate

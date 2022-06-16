@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by rdnslogs.rc
+// Used by ip2name.rc
 //
 
 // Next default values for new objects

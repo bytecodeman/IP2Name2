@@ -80,10 +80,13 @@
     <ClInclude Include="sync.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zconf.h">
+    <ClInclude Include="afxres.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zlib.h">
+    <ClInclude Include="..\zlib-win-build-master\zlib-win-build-master\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-win-build-master\zlib-win-build-master\zlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -104,13 +107,10 @@
     <None Include="readme.md">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="libz.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="pcre.lib">
-      <Filter>Source Files</Filter>
-    </Library>
-    <Library Include="zlib.lib">
-      <Filter>Source Files</Filter>
-    </Library>
+    <Library Include="libz.lib" />
+    <Library Include="pcre.lib" />
   </ItemGroup>
 </Project>

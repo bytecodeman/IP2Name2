@@ -7,7 +7,7 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include <windows.h>
+#include "afxres.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -46,7 +46,7 @@ BEGIN
             VALUE "FileDescription", "Converts numeric IP addresses in Log files to their domain names."
             VALUE "FileVersion", "7.0.0.0"
             VALUE "InternalName", "IP2NAME"
-            VALUE "LegalCopyright", "2001-2019  Antonio C. Silvestri"
+            VALUE "LegalCopyright", "2001-2022  Antonio C. Silvestri"
             VALUE "OriginalFilename", "RDNSLOGS.EXE"
             VALUE "ProductName", "IP2NAME"
             VALUE "ProductVersion", "7.0.0.0"
